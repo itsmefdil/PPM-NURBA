@@ -14,7 +14,7 @@ include 'komponen/navbar.php';
 <div class="row">
 <div class="col-xl-6 col-lg-7 col-md-12">
 <div class="hero__caption">
-<h1 data-animation="fadeInLeft" data-delay="0.2s">Pondok Pesantren<br> Mahasiswa <br>Baiturrahman</h1>
+<h1 data-animation="fadeInLeft" data-delay="0.2s">Pondok Pesantren<br> Mahasiswa <br>Nur Baiturrahman</h1>
 <p data-animation="fadeInLeft" data-delay="0.4s">Kuliah sambil nyantri ? In syaa allah bertambah berkah ilmunya.</p>
 <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Daftar</a>
 </div>
