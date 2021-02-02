@@ -51,7 +51,8 @@
               <ul class="treeview-menu">
 							<li><a href="<?= base_url('admin/ustadz')?>"><i class="fa fa-circle-o"></i> Ustadz</a></li>
 							<li><a href="<?= base_url('admin/santri')?>"><i class="fa fa-circle-o"></i> Santri</a></li>
-                <li><a href="<?= base_url('admin/pengurus')?>"><i class="fa fa-circle-o"></i> Pengurus</a></li>
+								<li><a href="<?= base_url('admin/pengurus')?>"><i class="fa fa-circle-o"></i> Pengurus</a></li>
+								<li><a href="<?= base_url('admin/pelajaran')?>"><i class="fa fa-circle-o"></i> Pelajaran</a></li>
               </ul>
             </li>
             <li class="treeview">

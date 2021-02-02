@@ -28,72 +28,21 @@ include 'komponen/navbar.php';
 <div class="services-area" style="margin-top: 50px;">
 <div class="container">
 <div class="row justify-content-sm-center">
-<div class="col-lg-4 col-md-6 col-sm-8">
-<div class="single-services mb-30">
-<div class="features-icon">
-<img src="assets/img/icon/icon1.svg" alt="">
-</div>
-<div class="features-caption">
-<h3>Tahsin</h3>
-<p>Memperbaiki bacaan Al-Qur'an.</p>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-8">
-<div class="single-services mb-30">
-<div class="features-icon">
-<img src="assets/img/icon/icon1.svg" alt="">
-</div>
-<div class="features-caption">
-<h3>Tafsir</h3>
-<p>Memahami ayat-ayat didalam Al-Qur'an.</p>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-8">
-  <div class="single-services mb-30">
-  <div class="features-icon">
-  <img src="assets/img/icon/icon1.svg" alt="">
-  </div>
-  <div class="features-caption">
-  <h3>Tahfidz</h3>
-  <p>Menghafal Al-Qur'an.</p>
-  </div>
-  </div>
-  </div>
-  <div class="col-lg-4 col-md-6 col-sm-8">
-    <div class="single-services mb-30">
-    <div class="features-icon">
-    <img src="assets/img/icon/icon1.svg" alt="">
-    </div>
-    <div class="features-caption">
-    <h3>Fiqih</h3>
-    <p>The automated process all your website tasks.</p>
-    </div>
-    </div>
-    </div>
+
+<?php $no=1; foreach($pelajaran->result() as $p){?>
     <div class="col-lg-4 col-md-6 col-sm-8">
       <div class="single-services mb-30">
       <div class="features-icon">
-      <img src="assets/img/icon/icon2.svg" alt="">
+      <img src="<?= base_url('uploads/pelajaran/')?><?= $p->icon?>" alt="" width="60px">
       </div>
       <div class="features-caption">
-      <h3>Sirah Nabawiyah</h3>
-      <p>The automated process all your website tasks.</p>
+      <h3><?= $p->nama ?></h3>
+      <p><?= $p->deskripsi ?></p>
       </div>
       </div>
       </div>
-<div class="col-lg-4 col-md-6 col-sm-8">
-<div class="single-services mb-30">
-<div class="features-icon">
-<img src="assets/img/icon/icon3.svg" alt="">
-</div>
-<div class="features-caption">
-<h3>LiQo</h3>
-<p>The automated process all your website tasks.</p>
-</div>
-</div>
-</div>
+<?php }  ?>
+
 </div>
 </div>
 </div>

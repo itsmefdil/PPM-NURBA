@@ -14,14 +14,15 @@ class Home extends CI_Controller {
 	// List all your items
 	public function index( $offset = 0 )
 	{
-		$data['sosmed']	= $this->db->get('tb_sosmed')->row_array();
-		$data['kontak']	= $this->db->get('tb_kontak')->row_array();
-		$data['k']		= $this->db->get('tb_blogkategori');
-		$data['b']		= $this->db->order_by('id','desc')->get('tb_blog',4);
-		$data['bf']		= $this->db->order_by('id','desc')->get('tb_blog',3);
-		$data['s']		= $this->db->get('tb_setting')->row_array();
-		$data['slider']	= $this->db->get('tb_slider');
-		$data['title'] 	= 'Home';
+		$data['sosmed']			= $this->db->get('tb_sosmed')->row_array();
+		$data['kontak']			= $this->db->get('tb_kontak')->row_array();
+		$data['k']				= $this->db->get('tb_blogkategori');
+		$data['b']				= $this->db->order_by('id','desc')->get('tb_blog',4);
+		$data['bf']				= $this->db->order_by('id','desc')->get('tb_blog',3);
+		$data['s']				= $this->db->get('tb_setting')->row_array();
+		$data['slider']			= $this->db->get('tb_slider');
+		$data['pelajaran']		= $this->db->order_by('id','desc')->get('tb_pelajaran',3);
+		$data['title'] 			= 'Home';
 		$this->load->view('frontend/home',$data);
 	}
 
