@@ -28,13 +28,10 @@
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
 <div class="single-footer-caption mb-50">
 <div class="footer-tittle">
-<h4>Our solutions</h4>
+<h4>Link</h4>
 <ul>
-<li><a href="#">Design & creatives</a></li>
-<li><a href="#">Telecommunication</a></li>
-<li><a href="#">Restaurant</a></li>
-<li><a href="#">Programing</a></li>
-<li><a href="#">Architecture</a></li>
+<li><a href="#">PPM NURBA</a></li>
+
 </ul>
 </div>
 </div>
@@ -42,13 +39,10 @@
 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
 <div class="single-footer-caption mb-50">
 <div class="footer-tittle">
-<h4>Support</h4>
+<h4>Kontak</h4>
 <ul>
-<li><a href="#">Design & creatives</a></li>
-<li><a href="#">Telecommunication</a></li>
-<li><a href="#">Restaurant</a></li>
-<li><a href="#">Programing</a></li>
-<li><a href="#">Architecture</a></li>
+<li><a href="mailto:friczky@gmail.com"><i class="fas fa-envelope"></i> &nbsp friczky@gmail.com </a></li>
+<li><a href="https://wa.me/089673881528"><i class="fab fa-whatsapp-square"></i> &nbsp; +62896-7388-1528</a></li>
 </ul>
 </div>
 </div>
@@ -56,13 +50,10 @@
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
 <div class="single-footer-caption mb-50">
 <div class="footer-tittle">
-<h4>Company</h4>
+<h4>Alamat</h4>
 <ul>
-<li><a href="#">Design & creatives</a></li>
-<li><a href="#">Telecommunication</a></li>
-<li><a href="#">Restaurant</a></li>
-<li><a href="#">Programing</a></li>
-<li><a href="#">Architecture</a></li>
+<li><a href="https://goo.gl/maps/fMmsCKLWHMq9iJyE9"><i class="fas fa-map-marker-alt"></i> Jl. Sukoharjo, Depok, Sanggrahan, Condongcatur, Kec. Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</a></li>
+
 </ul>
 </div>
 </div>

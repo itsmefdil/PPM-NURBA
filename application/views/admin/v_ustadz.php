@@ -9,7 +9,7 @@ $this->load->view('admin/komponen/sidebar');
   <section class="content-header">
     <h1>
     Pondok
-    <small>Ustadz</small>
+    <small>Ustadz</small> 
     </h1>
     <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -60,7 +60,7 @@ $this->load->view('admin/komponen/sidebar');
                         <tr>
                           <th>No.</th>
                           <th>Nama</th>
-                          <th>Deskripsi</th>
+                          <th>Mengajar</th>
                           <th>foto</th>
                           <th>Aksi</th>
                         </tr>
@@ -70,7 +70,7 @@ $this->load->view('admin/komponen/sidebar');
                         <tr>
                           <td><?= $no++?></td>
                           <td><?= $f->nama?></td>
-                          <td><?= $f->deskripsi?></td>
+                          <td><?= $f->mengajar?></td>
                           <td><img width="50px" src="<?= base_url('uploads/ustadz/')?><?= $f->foto?>" alt=""></td>
                           <td><a href="#" data-toggle="modal" data-target="#edit<?= $f->id?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a> | <a href="<?= base_url('admin/ustadz/delete/')?><?= $f->id?>" onclick="confirm('Apakah anda ingin menghapus ustadz ini?')"class="btn btn-danger"><i class="fa fa-trash"></i></a></td>
                         </tr>
@@ -107,8 +107,8 @@ $this->load->view('admin/komponen/sidebar');
                               <form action="<?= base_url('admin/ustadz/update/')?><?= $f->id?>" method="post" enctype="multipart/form-data">
                             <label for="">Nama</label>
                             <input type="text" name="nama" value="<?= $f->nama?>"  class="form-control">
-                            <label for="">Deskripsi</label>
-                            <textarea name="deskripsi" id="" class="form-control" cols="30" rows="2"><?= $f->deskripsi?></textarea>
+                            <label for="">Mengajar</label>
+                            <textarea name="mengajar" id="" class="form-control" cols="30" rows="2"><?= $f->mengajar?></textarea>
                             <label for="">Foto</label>
                             <input type="file" name="foto" class="form-control">
                             <input type="hidden" name="foto_old" value="<?= $f->foto?>">

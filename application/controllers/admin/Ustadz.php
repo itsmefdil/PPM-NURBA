@@ -32,7 +32,7 @@ class Ustadz extends CI_Controller {
 
         $data = [
             'nama'			=> $this->input->post('nama'),
-            'deskripsi'		=> $this->input->post('deskripsi'),  
+            'mengajar'		=> $this->input->post('mengajar'),  
             'foto'          => $foto
         ];
         $this->db->insert('tb_ustadz',$data);
@@ -45,7 +45,7 @@ class Ustadz extends CI_Controller {
 
         $data = [
             'nama'         => $this->input->post('nama'),
-            'deskripsi'     => $this->input->post('deskripsi'),
+            'mengajar'     => $this->input->post('mengajar'),
 
         ];
         $config['allowed_types'] = 'jpg|png|gif|jfif';

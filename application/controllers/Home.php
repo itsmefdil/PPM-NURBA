@@ -21,7 +21,9 @@ class Home extends CI_Controller {
 		$data['bf']				= $this->db->order_by('id','desc')->get('tb_blog',3);
 		$data['s']				= $this->db->get('tb_setting')->row_array();
 		$data['slider']			= $this->db->get('tb_slider');
-		$data['pelajaran']		= $this->db->order_by('id','desc')->get('tb_pelajaran',3);
+		$data['pelajaran']		= $this->db->order_by('id','asc')->get('tb_pelajaran');
+		$data['foto']			= $this->db->order_by('id','desc')->get('tb_foto')->result();
+		$data['ustadz']			= $this->db->order_by('id','desc')->get('tb_ustadz')->result();
 		$data['title'] 			= 'Home';
 		$this->load->view('frontend/home',$data);
 	}

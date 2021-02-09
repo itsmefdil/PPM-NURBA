@@ -79,9 +79,9 @@ class Slider extends CI_Controller {
         foreach ($data->result() as $u){
             unlink('uploads/slider/'.$u->file);
         } 
-        $this->db->where('id',$id)->delete('tb_foto');
+        $this->db->where('id',$id)->delete('tb_slider');
         $this->session->set_flashdata('sukses','<div class="alert alert-success"> Berhasil Menghapus Foto !</div>');
-        redirect(base_url('admin/foto'));
+        redirect(base_url('admin/slider'));
     }
 }
         
