@@ -25,7 +25,7 @@ include 'komponen/navbar.php';
 </div>
 </section>
 
-<div class="services-area" style="margin-top: 20px;">
+<div class="services-area">
 <div class="container">
 <div class="row justify-content-sm-center">
 

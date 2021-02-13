@@ -28,7 +28,7 @@
 <div class="main-menu d-none d-lg-block">
 <nav>
 <ul id="navigation">
-<li class="active"><a href="index-2.html">Home</a></li>
+<li class="active"><a href="<?= base_url()?>">Home</a></li>
 <li><a href="">Ustadz</a></li>
 <li><a href="">Santri</a></li>
 <li><a href="">Galery</a></li>

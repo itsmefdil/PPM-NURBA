@@ -105,7 +105,7 @@ class Home extends CI_Controller {
 		$data['k']		= $this->db->get('tb_blogkategori');
 		$data['sjr']	= $this->db->where('id',1)->get('tb_sejarah')->row_array();
 		$data['title'] 	= 'Tentang Kami';
-		$this->load->view('home/v_tentang',$data);
+		$this->load->view('frontend/about',$data);
 	}
 
 	public function kontak()
@@ -117,7 +117,7 @@ class Home extends CI_Controller {
 		$data['k']		= $this->db->get('tb_blogkategori');
 		$data['sjr']	= $this->db->where('id',1)->get('tb_sejarah')->row_array();
 		$data['title'] 	= 'Kontak';
-		$this->load->view('home/v_kontak',$data);
+		$this->load->view('frontend/contact',$data);
 	}
 
 	public function pengurus()
