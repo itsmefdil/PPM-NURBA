@@ -29,14 +29,27 @@
 <nav>
 <ul id="navigation">
 <li class="active"><a href="<?= base_url()?>">Home</a></li>
-<li><a href="">Ustadz</a></li>
-<li><a href="">Santri</a></li>
-<li><a href="">Galery</a></li>
-<li><a href="">Tentang</a></li>
-
-
+<li><a href="#">Pondok</a>
+<ul class="submenu">
+<li><a href="<?= base_url()?>ustadz">Ustadz</a></li>
+<li><a href="<?= base_url()?>pengurus">Pengurus</a></li>
+<li><a href="<?= base_url()?>santri">Santri</a></li>
+<li><a href="<?= base_url()?>alumni">Alumni</a></li>
+</ul>
 </li>
-<li><a href="">Kontak</a></li>
+<li><a href="#">Galery</a>
+<ul class="submenu">
+<li><a href="<?= base_url()?>foto">Foto</a></li>
+<li><a href="<?= base_url()?>video">Video</a></li>
+</ul>
+</li>
+<li><a href="<?= base_url()?>artikel">Artikel</a></li>
+<li><a href="#">Tentang</a>
+<ul class="submenu">
+<li><a href="<?= base_url()?>tentang">Tentang PPMA</a></li>
+<li><a href="<?= base_url()?>kontak">Kontak</a></li>
+</ul>
+</li>
 
 <!-- <li class="button-header margin-left "><a href="#" class="btn">Daftar</a></li> -->
  <li class="button-header"><a href="<?= base_url('login')?>" class="btn btn3">Masuk</a></li>
